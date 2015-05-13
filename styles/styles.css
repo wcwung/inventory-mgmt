@@ -1,0 +1,48 @@
+/*==========  Import vendor css  ==========*/
+@import url('bootstrap.css');
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,500,700,300');
+
+/*==========  Baseline Styles  ==========*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+/*==========  Header  ==========*/
+.top-bar {
+  height: 85px;
+  width: 100%;
+  background: #000;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.top-bar__brand {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+.top-bar__brand-application {
+  display: block;
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 0.4em;
+  color: #fff;
+  margin: 15px 0;
+}
+
+/*==========  Inventory Section  ==========*/
+#inventory-wrapper {
+  margin-top: 40px;
+}
+

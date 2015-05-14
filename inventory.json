@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "id": 0, "name": "Loubatins", "color": "Red", "condition": "New", "price": 899 },
+    { "id": 1, "name": "Michael Kors Clutch", "color": "Gold", "condition": "Like New", "price": 129 },
+    { "id": 2, "name": "Gucci Belt", "color": "Green", "condition": "Gently Used", "price": 249 }
+  ]
+}

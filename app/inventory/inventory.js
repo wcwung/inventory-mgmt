@@ -10,6 +10,6 @@ function InventoryController(InventoryFactory, $filter) {
   self.clothing = InventoryFactory.inventory();
   self.newEntry = {};
   self.addInventoryItem = function(item) {
-    alert(self.newEntry.name);
+    alert(self.newEntry);
   };
 }

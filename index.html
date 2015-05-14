@@ -16,23 +16,23 @@
     <div id="toolbar-wrapper">
       <!-- Input area for adding new inventory -->
       <h1>Add Inventory Item</h1>
-      <form class="toolbar__form" ng-submit="item.addInventoryItem()" ng-click="item.addInventoryItem()">
+      <form class="toolbar__form" ng-submit="item.addInventoryItem()">
         <!-- Input fields -->
         <span>Item Name</span>
-        <input type="text" name="itemName" ng-model="item.clothing.name" required>
+        <input type="text" name="itemName" ng-model="item.newEntry.name" required>
 
         <span>Item Color</span>
-        <input type="text" name="itemColor" ng-model="item.clothing.color">
+        <input type="text" name="itemColor" ng-model="item.newEntry.color">
 
         <span>Item Condition</span>
-        <select name="itemCondition" id="item-condition" ng-model="item.clothing.condition">
+        <select name="itemCondition" id="item-condition" ng-model="item.newEntry.condition">
           <option value="new">New</option>
           <option value="likeNew">Like New</option>
           <option value="gentlyUsed">Gently Used</option>
         </select>
 
         <span>Item Price ($)</span>
-        <input type="text" name="itemPrice" ng-model="item.clothing.price">
+        <input type="text" name="itemPrice" ng-model="item.newEntry.price">
 
         <input type="submit" id="submit" value="Submit" />
       </form>
@@ -63,7 +63,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.14/angular-ui-router.min.js"></script>
-<script src="../node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script src="./node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
 
 <script src="common/services.js"></script>
 <script src="app/stockpile.js"></script>

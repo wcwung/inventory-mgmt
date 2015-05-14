@@ -8,8 +8,8 @@ function InventoryController(InventoryFactory, $filter) {
   var self = this;
   // Retrieves inventory data from factory
   self.clothing = InventoryFactory.inventory();
-
-  // self.addInventoryItem = function(item) {
-  //   alert('yello!');
-  // };
+  self.newEntry = {};
+  self.addInventoryItem = function(item) {
+    alert(self.newEntry.name);
+  };
 }
